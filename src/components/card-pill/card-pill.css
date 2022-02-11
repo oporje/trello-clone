@@ -1,0 +1,18 @@
+.card-pill {
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.card-pill-details {
+    text-align: left;
+}
+.card-pill-details label {
+    width: 30%;
+    margin-right: 5px;
+}
+
+.card-pill-details p {
+    display: inline-block;
+}

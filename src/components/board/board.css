@@ -1,0 +1,30 @@
+
+.board input {
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid grey;
+    margin: 5px;
+}
+
+.board h3 {
+    color: gray;
+    justify-content: center;
+    display: flex;
+}
+
+.board button {
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid green;
+    color: white;
+    background-color: green;
+    cursor: pointer;
+    margin: 0.5rem;
+    min-width: 5rem;
+}
+
+.board .add-list-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}

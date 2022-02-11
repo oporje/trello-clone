@@ -1,0 +1,26 @@
+.list-container {
+    width: 20%;
+    height: auto;
+    max-width: 300px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin: 20px;
+    min-height: 100px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #ede9e9;
+    border-bottom: 1px solid grey;
+    align-items: center;
+}
+
+.lists-container {
+    display: flex;
+}
+
+.list-container .cards-section {
+    min-height: 4rem;
+}
