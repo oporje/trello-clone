@@ -4,7 +4,7 @@
     max-width: 300px;
     border: 1px solid grey;
     border-radius: 5px;
-    margin: 20px;
+    margin: 3rem;
     min-height: 100px;
 }
 
@@ -19,6 +19,9 @@ header {
 
 .lists-container {
     display: flex;
+    justify-content: center;
+    margin: 2rem 1rem;
+    border: 1px solid gray;
 }
 
 .list-container .cards-section {
