@@ -1,0 +1,9 @@
+.card-container, .card-input-form {
+    margin: 2px;
+    padding: 2px;
+    text-align: left;
+}
+
+.card-container .card-input-form .form-input-container {
+    margin: 1rem;
+}
