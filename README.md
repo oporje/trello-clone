@@ -20,6 +20,14 @@ Jest and Enzyme is being used to test. Test cases are being written for couple o
 
 In the project directory, you can run:
 
+## Improvements can be done
+
+Definitely this not a production ready, I spent 5 hours to code this
+
+1) We can use CSS modules to make css code modularized
+2) More unit testing to be done
+
+
 ### `npm start`
 
 Runs the app in the development mode.\
