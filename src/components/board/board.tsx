@@ -17,7 +17,7 @@ const Board: FC<BoardComponentProps> = ({ board: { boardId, name } }) => {
     const handleAddList = () => {
         setListName('');
         const listId = `${Math.floor(Date.now() + Math.random())}`;
-        setLists({...lists, [listId]:{name: listName, boardId, listId, cards: {}}});
+        setLists({...lists, [listId]: { name: listName, boardId, listId, cards: {} }});
     };
 
     return (
@@ -26,7 +26,7 @@ const Board: FC<BoardComponentProps> = ({ board: { boardId, name } }) => {
                 <h3>Welcome to board - <strong>  {name} </strong></h3>
                 <div className='add-list-container'>
                     <input value={listName} onChange={e => setListName(e.target.value)} type='text' />
-                    <button onClick={() => handleAddList()}>
+                    <button className='add-list-btn' onClick={() => handleAddList()}>
                         Add list
                     </button>
                 </div>
