@@ -16,6 +16,13 @@ Context is used to share the state between nested child components
 ## Unit test coverage
 Jest and Enzyme is being used to test. Test cases are being written for couple of components but surely can be extended for the other components.
 
+## Improvements can be done
+
+Definitely this not a production ready, I spent 5 hours to code this
+
+1) We can use CSS modules to make css code modularized
+2) More unit testing to be done
+
 ## Available Scripts
 
 In the project directory, you can run:
