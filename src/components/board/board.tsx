@@ -15,6 +15,7 @@ const Board: FC<BoardComponentProps> = ({ board: { boardId, name } }) => {
     const value = { lists, setLists };
 
     const handleAddList = () => {
+        if (!listName) return;
         setListName('');
         const listId = `${Math.floor(Date.now() + Math.random())}`;
         setLists({...lists, [listId]: { name: listName, boardId, listId, cards: {} }});

@@ -9,6 +9,7 @@ const BoardContainer: FC = () => {
     
     // for assignment lets consider user can only create one board
     const handleAddBoard = () => {
+        if (!boardName) return;
         setBoard({
             name: boardName, 
             boardId: `${Math.floor(Date.now() + Math.random())}` // can be easily made dynamic
