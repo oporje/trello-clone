@@ -26,7 +26,7 @@ Definitely this not a production ready, I spent 5 hours to code this
 
 1) We can use CSS modules to make css code modularized
 2) More unit testing to be done
-
+3) Hydrade state from localstorage to persist data on refresh
 
 ### `npm start`
 
